@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Application</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/96fbd156cf.js"></script>
+	<script src="js/quiz.js"></script>
+</head>
+
+<body>
+	<div class="container1">
+		<div id="background">  
+			<form id="contact" action="" method="post">
+				<h3>Contact Application</h3>
+				<h4>Name</h4>
+					<fieldset id="one">
+						<input id="firstName" placeholder="Your name" type="text" autofocus>
+					</fieldset>
+				<h4>Email</h4>
+					<fieldset id="two">
+						<input id="emailAddress" placeholder="Your Email Address" type="email">
+					</fieldset>
+				<h4>Phone</h4>
+					<fieldset id="three">
+						<input id="phoneNumber" placeholder="Your Phone Number" type="tel">
+					</fieldset>
+				<h4>Address <span id="plusThree" class="green"><i class="fa fa-plus-square-o"></i></span></h4>
+					<fieldset id="four">
+						<input id="street" placeholder="Street">
+					</fieldset>
+					<fieldset id="five">
+						<input id="city" placeholder="City">
+						<input id="state" placeholder="State">
+						<input id="zipCode" class="zipCode" placeholder="Zipcode">
+					</fieldset>
+					<fieldset id="six">
+						<input id="country" placeholder="Country">
+					</fieldset>
+					<fieldset>
+						<div id="button" name="submit" id="contact-submit">Submit</div>
+					</fieldset>
+			</form>
+
+			<div id="nameList">
+			</div>
+		</div>
+	</div>
+ 
+</body>
+</html>
